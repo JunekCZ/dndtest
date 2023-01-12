@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;;
+  width: 400px;
+  padding: 20px 12px;
+  background-color: gray;
+}
+.task {
+  padding: 12px 8px;
+}
